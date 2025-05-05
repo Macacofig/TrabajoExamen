@@ -1,13 +1,11 @@
-function Factorial (n) {
-    if (n < 0) {
-        return "Error: El número debe ser mayor o igual a cero.";
-    } else if (n === 0 || n === 1) {
-        return 1;
-    } else {
-        return n * Factorial(n - 1);
-    }
-}
+document.getElementById("buttonEnter").addEventListener("click", function() {
+    calculateIMC();
+        });
+function calculateIMC() {
+    var weight = parseFloat(document.getElementById("weight").value);
+    var length = parseFloat(document.getElementById("length").value);
+    var imc =parseFloat( weight / (length * length));
+    document.getElementById("result").innerHTML = `Tu IMC es de: ${imc.toFixed(2)}<br>`;
 
-console.log(Factorial(5));
-console.log(Factorial(0));
-console.log(Factorial(-3));
+    
+}   
