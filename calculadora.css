@@ -1,35 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap');
-*{
+
+* {
     font-family: "Tagesschrift";
 }
-body{
-    background: linear-gradient(to right, #562C73,#F28E85);
+
+body {
+    background: linear-gradient(to right, #562C73, #F28E85);
 }
-header{
+
+#header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
     margin-left: 1rem;
-    color:#F2BC8D;
+    color: #F2BC8D;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color:white;
+    color: white;
 }
-input, label, button{
+
+input,
+label,
+button {
     margin: 0.25rem;
 }
-button,input{
+
+button,
+input {
     font-size: large;
     padding: 0.5rem;
 }
-#result{
+
+#result {
     position: relative;
     margin-left: 80%;
 }
-button:hover{
-    background-color:#F2B999;
+
+button:hover {
+    background-color: #F2B999;
+}
+
+/* Navbar */
+.navbar {
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: rgb(111, 111, 225);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Navbar P1*/
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+/* Navbar P2*/
+
+.nav-links a {
+    margin-left: 3rem;
+    text-decoration: none;
+    color: #ddd;
+    font-weight: bold;
+
+}
+
+.nav-links a:hover {
+    color: #ffd700;
 }
