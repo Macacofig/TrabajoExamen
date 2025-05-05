@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de índice de masa corporal</title>
+    <link href="calculadora.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-    <h1>Calculadora de índice de masa corporal</h1>
+    <header>
+        <h1>Calculadora</h1>
+        <h2>IMC</h2>
+    </header>
 
     <form>
-        <label for="weight">Type your weight</label>
+        <label for="weight">Ingresa tu peso en kgs</label>
         <input id="weight" type="number">
 
-        <label for="length">Type your height</label>
+        <label for="length">Ingresa tu altura en metros</label>
         <input id="length" type="number">
+        <button id="buttonEnter">Calcular</button>
     </form>
+   
 
-    <button id="buttonEnter">Calcular</button>
+    <h2 id="result"> </h2>
 
-    <p id="result"></p>
-
-    <script src="Calculadora.js"></script>
+        <script src="Calculadora.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap');
+*{
+    font-family: "Tagesschrift";
+}
+body{
+    background: linear-gradient(to right, #562C73,#F28E85);
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 1rem;
+    color:#F2BC8D;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+input, label, button{
+    margin: 0.25rem;
+}
+button,input{
+    font-size: large;
+    padding: 0.5rem;
+}
+#result{
+    position: relative;
+    margin-left: 80%;
+}
+button:hover{
+    background-color:#F2B999;
+}
