@@ -1,0 +1,154 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+  
+body 
+{
+    color: #fff;
+}
+
+
+
+/* Navbar */
+.navbar {
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: rgb(111, 111, 225);
+    padding-top:  2rem;
+    padding-bottom:  2rem;
+  }
+  
+  /* Navbar P1*/
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+  /* Navbar P2*/
+  
+  .nav-links a {
+    margin-left: 3rem;
+    text-decoration: none;
+    color: #ddd;
+    font-weight: bold;
+  
+  }
+  
+  .nav-links a:hover {
+    color: #ffd700;
+  }
+/****************************************************************************************************************************/
+.boton-prin
+{
+    width: 200px;
+    height: 50px;
+    background-color: burlywood;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .recuadros
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.recuadros-container
+{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.recuadros-container .recuadro1
+{
+    background-color: #ff0000;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    margin: 10px;
+    border: 7px solid #000;
+}
+
+.recuadros-container .recuadro2
+{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    margin: 10px;
+    border: 7px solid #000;
+}
+
+.recuadros-container .recuadro3
+{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    margin: 10px;
+    border: 7px solid #000;
+}
+
+.recuadros-container .recuadro4
+{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    margin: 10px;
+    border: 7px solid #000;
+}
+
+.recuadros-container .recuadro5
+{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    margin: 10px;
+    border: 7px solid #000;
+}
+
+.recuadros-container .recuadro6
+{
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    margin: 10px;
+    border: 7px solid #000;
+}
